@@ -6,8 +6,10 @@ import 'package:whatsapp_clone_app/common/utils/coloors.dart';
 ThemeData darkTheme() {
   final ThemeData base = ThemeData.dark();
   return base.copyWith(
-    backgroundColor: Coloors.backgroundDark,
-    scaffoldBackgroundColor: Coloors.backgroundDark,
+    scaffoldBackgroundColor: Coloors.backgroundDark, 
+    colorScheme: base.colorScheme.copyWith(
+      surface: Coloors.backgroundDark, 
+    ),
     extensions: [CustomThemeExtension.darkMode],
     appBarTheme: const AppBarTheme(
       backgroundColor: Coloors.greyBackground,
@@ -67,8 +69,8 @@ ThemeData darkTheme() {
       tileColor: Coloors.backgroundDark,
     ),
     switchTheme: const SwitchThemeData(
-      thumbColor: MaterialStatePropertyAll(Coloors.greyDark),
-      trackColor: MaterialStatePropertyAll(Color(0xFF344047)),
+      thumbColor: WidgetStatePropertyAll(Coloors.greyDark),
+      trackColor: WidgetStatePropertyAll(Color(0xFF344047)),
     ),
   );
 }
