@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_clone_app/feature/welcome/pages/welcome_page.dart';
+
 
 void main() {
   runApp(const MyApp());
