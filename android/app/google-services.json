@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "665154855274",
+    "project_id": "ws-clone-app",
+    "storage_bucket": "ws-clone-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665154855274:android:9629c974ed78113fa38513",
+        "android_client_info": {
+          "package_name": "com.example.ws"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhwRvmpc1OxzXvWqJdekNo9kg8snsWLvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
