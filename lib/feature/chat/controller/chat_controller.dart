@@ -4,6 +4,8 @@ import 'package:whatsapp_clone_app/common/models/last_message_model.dart';
 import 'package:whatsapp_clone_app/common/models/message_model.dart';
 import 'package:whatsapp_clone_app/feature/auth/controller/auth_controller.dart';
 import 'package:whatsapp_clone_app/feature/chat/repository/chat_repository.dart';
+import 'package:whatsapp_clone_app/common/enum/message_type.dart';
+
 
 final chatControllerProvider = Provider((ref) {
   final chatRepository = ref.watch(chatRepositoryProvider);
