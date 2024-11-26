@@ -11,7 +11,8 @@ import 'package:whatsapp_clone_app/common/utils/coloors.dart';
 import 'package:whatsapp_clone_app/common/widgets/custom_elevated_button.dart';
 import 'package:whatsapp_clone_app/common/widgets/custom_icon_button.dart';
 import 'package:whatsapp_clone_app/common/widgets/short_h_bar.dart';
-
+import 'package:whatsapp_clone_app/feature/auth/controller/auth_controller.dart';
+import 'package:whatsapp_clone_app/feature/auth/pages/image_picker_page.dart';
 import 'package:whatsapp_clone_app/feature/auth/widgets/custom_text_field.dart';
 
 class UserInfoPage extends ConsumerStatefulWidget {
