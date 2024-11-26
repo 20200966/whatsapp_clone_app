@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone_app/common/utils/coloors.dart';
+import '../../../common/widgets/custom_elevated_button.dart';
+import '../widgets/language_button.dart';
+import '../widgets/privacy_and_terms.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});
