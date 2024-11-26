@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:whatsapp_clone_app/common/utils/coloors.dart';
-
+import '../extension/custom_theme_extension.dart';
 
 ThemeData lightTheme() {
   final ThemeData base = ThemeData.light();
