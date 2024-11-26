@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp_clone_app/feature/welcome/pages/welcome_page.dart';
+import 'package:whatsapp_clone_app/common/utils/coloors.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});
