@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone_app/feature/welcome/pages/welcome_page.dart';
+import 'package:whatsapp_clone_app/common/theme/dark_theme.dart';
+import 'package:whatsapp_clone_app/common/theme/light_theme.dart';
 
 
 void main() {
