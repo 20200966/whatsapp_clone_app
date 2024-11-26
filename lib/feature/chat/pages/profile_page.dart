@@ -5,7 +5,7 @@ import 'package:whatsapp_clone_app/common/helper/last_seen_message.dart';
 import 'package:whatsapp_clone_app/common/models/user_model.dart';
 import 'package:whatsapp_clone_app/common/utils/coloors.dart';
 import 'package:whatsapp_clone_app/common/widgets/custom_icon_button.dart';
-
+import 'package:whatsapp_clone_app/feature/chat/widgets/custom_list_tile.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key, required this.user});
