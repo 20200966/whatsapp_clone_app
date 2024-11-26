@@ -6,7 +6,9 @@ import 'package:whatsapp_clone_app/common/models/user_model.dart';
 import 'package:whatsapp_clone_app/common/routes/routes.dart';
 import 'package:whatsapp_clone_app/common/utils/coloors.dart';
 import 'package:whatsapp_clone_app/common/widgets/custom_icon_button.dart';
+import 'package:whatsapp_clone_app/feature/contact/controller/contacts_controller.dart';
 
+import '../widget/contact_card.dart';
 
 class ContactPage extends ConsumerWidget {
   const ContactPage({super.key});
