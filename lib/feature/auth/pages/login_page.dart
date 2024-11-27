@@ -4,6 +4,7 @@ import 'package:whatsapp_clone_app/common/widgets/custom_elevated_button.dart';
 import 'package:whatsapp_clone_app/feature/auth/widgets/custom_text_field.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:country_picker/country_picker.dart';
+import 'package:whatsapp_clone_app/feature/auth/controller/auth_controller.dart';
 import 'package:whatsapp_clone_app/common/helper/show_alert_dialog.dart';
 
 
@@ -59,7 +60,7 @@ class _LoginPageState extends ConsumerState<LoginPage> {
       favorite: ['ET'],
       countryListTheme: CountryListThemeData(
         bottomSheetHeight: 600,
-        backgroundColor: Theme.of(context).backgroundColor,
+        backgroundColor: Theme.of(context).colorScheme.surface,
         flagSize: 22,
         borderRadius: BorderRadius.circular(20),
         textStyle: TextStyle(color: context.theme.greyColor),

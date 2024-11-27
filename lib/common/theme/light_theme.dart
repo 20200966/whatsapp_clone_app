@@ -6,8 +6,10 @@ import '../extension/custom_theme_extension.dart';
 ThemeData lightTheme() {
   final ThemeData base = ThemeData.light();
   return base.copyWith(
-    backgroundColor: Coloors.backgroundLight,
-    scaffoldBackgroundColor: Coloors.backgroundLight,
+    scaffoldBackgroundColor: Coloors.backgroundLight, // Fondo para Scaffold
+    colorScheme: base.colorScheme.copyWith(
+      surface: Coloors.backgroundLight, // Fondo general del esquema de colores
+    ),
     extensions: [CustomThemeExtension.lightMode],
     appBarTheme: const AppBarTheme(
       backgroundColor: Coloors.greenLight,
@@ -64,8 +66,8 @@ ThemeData lightTheme() {
       tileColor: Coloors.backgroundLight,
     ),
     switchTheme: const SwitchThemeData(
-      thumbColor: MaterialStatePropertyAll(Color(0xFF83939C)),
-      trackColor: MaterialStatePropertyAll(Color(0xFFDADFE2)),
+      thumbColor: WidgetStatePropertyAll(Color(0xFF83939C)),
+      trackColor: WidgetStatePropertyAll(Color(0xFFDADFE2)),
     ),
   );
 }
